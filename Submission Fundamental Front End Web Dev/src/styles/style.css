@@ -1,0 +1,46 @@
+/*@import 'clublist.css';
+@import 'searchbar.css';
+@import 'clublist.css'; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 32px auto;
+}
+
+club-list {
+  display: block;
+  margin-top: 32px;
+  width: 100%;
+  padding: 16px;
+}
+
+.clock {
+  margin-top: 10px;
+  width: 200px;
+  padding: 10px;
+  color: black;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.clock .time {
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+.clock .date {
+  font-size: 20px;
+  margin: 0 auto;
+}
